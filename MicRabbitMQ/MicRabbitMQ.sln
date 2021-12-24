@@ -15,12 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicRabbitMQ.Domain.Core", "MicRabbitMQ.Domain.Core\MicRabbitMQ.Domain.Core.csproj", "{1022448B-AFD1-4176-ADA3-7136C3FD287E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bus", "Bus", "{BE1650D4-6988-4128-BC20-4ED569785AA0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commands", "Commands", "{FAA26048-6E83-4A14-BA88-DF01E19C86BB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{E2560F82-E37B-49D6-A496-4D45AE8AFEA8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,9 +31,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1022448B-AFD1-4176-ADA3-7136C3FD287E} = {6D271332-18DE-4F89-B0D4-DD292F119352}
-		{BE1650D4-6988-4128-BC20-4ED569785AA0} = {6D271332-18DE-4F89-B0D4-DD292F119352}
-		{FAA26048-6E83-4A14-BA88-DF01E19C86BB} = {6D271332-18DE-4F89-B0D4-DD292F119352}
-		{E2560F82-E37B-49D6-A496-4D45AE8AFEA8} = {6D271332-18DE-4F89-B0D4-DD292F119352}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6AA1318-6DAD-46A5-A9EB-F862DCBF1FB0}
