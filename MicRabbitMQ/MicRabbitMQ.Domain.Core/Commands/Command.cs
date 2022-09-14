@@ -9,11 +9,11 @@ namespace MicRabbitMQ.Domain.Core.Commands
 {
     public abstract class Command: Message
     {
-        public DateTime Time { get; protected set; }
+        public DateTime Timestamp { get; protected set; }
 
         protected Command()
         {
-            Time = DateTime.Now;
+            Timestamp = DateTime.Now;
         }
     }
 }
