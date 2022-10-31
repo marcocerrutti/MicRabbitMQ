@@ -1,5 +1,6 @@
 ﻿using MicRabbitMQ.Domain.Core.Commands;
 using MicRabbitMQ.Domain.Core.Events;
+using MicRabbitMQ.Domain.Core.Commands;
 using System;
 using System.Collections.Generic;
 using System.Linq;
